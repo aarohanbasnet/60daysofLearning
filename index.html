@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>COVID-19 Vaccination Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">Covid Vaccination Survey Form</h1>
+    <p>This anonymous survey is designed to collect feedback on COVID-19 vaccination experiences.</p>
+
+    <form>
+      <label id="name-label" for="name">Name</label>
+      <input id ="name" type="text" placeholder = "Enter your full name"><br>
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder = "Enter email address"><br>
+     <label for="number">Age</label>
+      <input type="number" id="number" min="5" max="120" placeholder = "Age">
+
+      <h3>Vaccination Status</h3>
+      <p>Have you received the Covid 19 vaccine?<p>
+     
+     <label>
+       <input type="radio" name="vaccination-status" value="Yes">Yes, Fully caccinated
+      </label><br>
+
+      <label>
+       <input type="radio" name="vaccination-status" value="Yes">Yes, Partially caccinated
+      </label><br>
+
+      <label>
+       <input type="radio" name="vaccination-status" value="Yes">No, not vaccinated
+      </label>
+
+      <h3>Which Vaccine did you receive?</h3>
+      <label>
+        <select id="dropdrown" name="vaccine-name" required>
+        <option value="">Select option</option>
+        <option value="pfzer">Pfizer</option>
+        <option value="moderna">Moderna</option>
+        <option value="jonsen">Johnson & Johnson</option>
+        <option value="astrazeneca">AstraZeneca</option>
+         <option value="none">No, I haven't received any vaccination</option>
+      </label>
+
+<p>Did you experience any side effect after the vaccine?</p>
+      
+    </form>
+  </body>
