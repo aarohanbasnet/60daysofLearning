@@ -1,0 +1,128 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>COVID-19 Vaccination Survey Form</title>
+  <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <h1 id="title">Covid Vaccination Survey Form</h1>
+    <p id="description">This anonymous survey is designed to collect feedback on COVID-19 vaccination experiences.</p>
+
+    <form id="survey-form">
+      <label id="name-label" for="name">Name</label>
+      <input id ="name" type="text" placeholder = "Enter your full name" required><br>
+      <label for="email" id="email-label" required>Email</label>
+      <input type="email" id="email" placeholder = "Enter email address" required><br>
+     <label for="number" id="number-label">Age</label>
+      <input type="number" id="number" min="5" max="120" placeholder = "Age">
+
+      <h3>Vaccination Status</h3>
+      <p>Have you received the Covid 19 vaccine?<p>
+     
+     <label>
+       <input type="radio" name="vaccination-status" value="Yes">Yes, Fully vcaccinated
+      </label><br>
+
+      <label>
+       <input type="radio" name="vaccination-status" value="Yespart">Yes, Partially caccinated
+      </label><br>
+
+      <label>
+       <input type="radio" name="vaccination-status" value="No">No, not vaccinated
+      </label>
+
+      <h3>Which Vaccine did you receive?</h3>
+      <label>
+        <select id="dropdown" name="vaccine-name" required>
+        <option value="">Select option</option>
+        <option value="pfzer">Pfizer</option>
+        <option value="moderna">Moderna</option>
+        <option value="jonsen">Johnson & Johnson</option>
+        <option value="astrazeneca">AstraZeneca</option>
+         <option value="none">No, I haven't received any vaccination</option>
+         </select>
+      </label>
+
+<p>Did you experience any side effect after the vaccine?</p>
+<label>
+<input type="checkbox" name="vaccine" value="fever">Fever
+</label>
+<label>
+<input type="checkbox" name="vaccine" value="fatigue">Fatigue
+</label>
+<label>
+<input type="checkbox" name="vaccine" value="headache">Headache
+</label>
+<label>
+<input type="checkbox" name="vaccine" value="chills">Chills
+</label>
+<label>
+<input type="checkbox" name="vaccine" value="nosideeffect">No side effect
+</label>
+<label>
+<input type="checkbox" name="vaccine" value="nottosay">Prefer not to say
+</label>
+
+<h3>Accessibility and Concerns</h3>
+<p>How easy was it for you to access the vaccine?</p>
+<label>
+  <input type ="radio" name="accessibility" value="easy">Very Easy
+</label><br>
+<label>
+  <input type ="radio" name="accessibility" value="mid">Some what Easy
+</label><br>
+<label>
+  <input type ="radio" name="accessibility" value="hard">Difficult
+</label><br>
+<label>
+  <input type ="radio" name="accessibility" value="no">I haven't tried
+</label>
+      
+<p>What influenced your decision to take (or not take) the vaccine? </p>
+
+<label>
+<input type="checkbox" name="vaccine" value="Govt">Government Mandate
+</label><br>
+
+<input type="checkbox" name="vaccine" value="Govt">Personal Health Concerns
+</label><br>
+
+<input type="checkbox" name="vaccine" value="social">Social Influence
+</label><br>
+
+<input type="checkbox" name="vaccine" value="mis">Misinformation
+</label><br>
+
+<input type="checkbox" name="vaccine" value="unsure">I am still unsure
+</label><br>
+
+<textarea placeholder="Elaborate if any"></textarea>
+
+<p>Any comments or suggestion regarding vaccination process?</p>
+<textarea ></textarea>
+
+<p>Would you recommned others to get vaccinated?</p>
+ <label>
+       <input type="radio" name="recommend" value="Yes">Yes
+      </label>
+
+<label><br>
+       <input type="radio" name="recommend" value="no">No
+      </label><br>
+
+<label>
+       <input type="radio" name="recommend" value="maybe">Maybe
+      </label><br>
+
+ <button type="Submit" id = "submit">Submit</button>
+
+
+    </form>
+  </body>
+
+
