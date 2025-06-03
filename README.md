@@ -31,8 +31,8 @@ Day 2 :
 - [CodeHal](https://youtu.be/hlwlM4a5rxg?si=hmMpiOQQolwUChcm)
 
  Day 3 :
--[W3Schools](https://www.w3schools.com)
--[FreeCodeCamp](https://www.freecodecamp.org)
+- [W3Schools](https://www.w3schools.com)
+- [FreeCodeCamp](https://www.freecodecamp.org)
  
 - Other helpful tutorials and documentation as I discover them.
 
