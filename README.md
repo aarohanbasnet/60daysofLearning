@@ -29,7 +29,16 @@ Day 2 :
 - [W3Schools](https://www.w3schools.com)
 - [FreeCodeCamp](https://www.freecodecamp.org)
 - [CodeHal](https://youtu.be/hlwlM4a5rxg?si=hmMpiOQQolwUChcm)
-- 
+
+Day 3 : 
+- [W3Schools](https://www.w3schools.com)
+- [FreeCodeCamp](https://www.freecodecamp.org)
+
+Day 4 : 
+- [W3Schools](https://www.w3schools.com)
+- [Chat GPT](https://openai.com/)
+
+ 
 - Other helpful tutorials and documentation as I discover them.
 
 ## How to Follow Along 👀
