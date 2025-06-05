@@ -38,6 +38,11 @@ Day 4 :
 - [W3Schools](https://www.w3schools.com)
 - [Chat GPT](https://openai.com/)
 
+- Day 5 : 
+- [W3Schools](https://www.w3schools.com)
+- [Sheriyans Coding School -Youtube ]([https://openai.com/](https://youtu.be/9cmy6AK3IBA?si=jwxuuYr1oXB191WX)
+
+
  
 - Other helpful tutorials and documentation as I discover them.
 
