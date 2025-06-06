@@ -96,7 +96,9 @@ img{
    
 }
 
-#img1{
+#img1{  /*we could have used rotate property directly but since we have used
+    transform : translate property the single rotate property would over write the 
+    translate property */
    transform: translate(-50%,-50%) rotate(-30deg);
 }
 #img2{
