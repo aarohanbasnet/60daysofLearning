@@ -1,0 +1,119 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Git Documentation</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <nav id = "navbar">
+    <header>
+    <h1>Git</h1>
+    </header>
+    <ul>
+      <li>
+        <a href="#introduction" class = "nav-link">Introduction</a>
+        </li>
+      <li>
+        <a href="#what_is_git?"  class = "nav-link">What is Git?</a>
+      </li>
+      <li>
+        <a href="#installing_git"  class = "nav-link">Installing Git</a>
+      </li>
+      <li>
+        <a href="#git_basics" class = "nav-link">Git Basics</a>
+      </li>
+      <li>
+        <a href="#branching_and_merging"  class = "nav-link">Branching and Merging</a>
+      </li>
+      <li>
+        <a href="#useful_commands"  class = "nav-link">Useful Commands</a>
+      </li>
+       <li><a
+       href="#conclusion"  class = "nav-link">Conclusion</a></li>
+    </ul>
+  </nav>
+  <main id= "main-doc">
+    <section class= "main-section" id="introduction">
+      <header><h1>Introduction</h1></header>
+      <p>Git is a distributed version control system used to track changes in source code during software development. It helps teams collaborate efficiently, manage code history, and prevent loss of work. This documentation introduces Git basics and essential commands.</p>
+    </section>
+
+    <section class= "main-section" id="what_is_git?">
+      <header><h1>What is Git?</h1></header>
+      <p>Git is a version control system that records changes to files over time. It allows multiple developers to work on a project simultaneously without interfering with each other. Git also keeps a detailed history of code changes, making it easier to revert to previous versions if needed.</p>
+    </section>
+    
+    <section class= "main-section" id="installing_git">
+      <header><h1>Installing Git</h1></header>
+      <p>Git can be installed on various operating systems.</p>
+<ul>
+<li>On Windows: Download from <a href = "git-scm.com">git-scm.com</a> and run the installer.</li>
+
+<li>On macOS: <code>Use Homebrew – run brew install git</code></li>
+
+<li>On Linux: Use your package manager, e.g., sudo apt install git for Debian-based systems.</li>
+</ul>
+<p>After installation, <code>use git --version</code> to verify Git is installed.</p>
+    </section>
+    
+    <section class= "main-section" id="git_basics">
+      <header><h1>Git Basics</h1></header>
+      <p>After installing Git, you can start using it:</p>
+<ul>
+<li><code>git init</code> initializes a new Git repository.</li>
+
+<li><code>git add</code> stages files for commit.</li>
+
+<li><code>git commit</code> saves staged changes.</li>
+
+<li><code>git status</code> shows current state of working directory.</li>
+
+<li><code>git log </code> displays commit history.</li>
+</ul>
+    </section>
+
+    <section class="main-section" id="branching_and_merging">
+      <header><h1>Branching and Merging</h1></header>
+      <p>Branches allow parallel development.</p>
+      <ul>
+        <li><code>git branch <code>&lt;name&gt;</code>
+</code> creates a new branch.</li>
+        <li><code>git checkout <code>&lt;name&gt;</code>
+</code> switches to a branch.</li>
+        <li><code>git merge <code>&lt;name&gt;</code>
+</code> merges another branch into your current one.</li>
+      </ul>
+      <p>Branching helps isolate features or fixes before merging them into the main codebase.</p>
+    </section>
+
+    <section class="main-section" id="useful_commands">
+      <header><h1>Useful Commands</h1></header>
+    <p>Some additional useful Git commands:</p>
+<ul>
+<li><code>git clone</code> <url> clones a remote repository.</li>
+
+<li><code>git pull</code> updates your local repo from the remote.</li>
+
+<li><code>git push</code> uploads your changes to the remote.</li>
+
+<li><code>git remote -v</code> lists connected remotes.</li>
+</ul>
+<p>These commands are essential for working with remote repositories like GitHub.
+</p>
+    </section>
+
+    <section class="main-section" id="conclusion">
+      <header><h1>Conclusion</h1></header>
+      <p>Git is a powerful tool that improves code collaboration and tracking. Understanding basic Git commands and workflows enables developers to work efficiently and reduce errors. Mastering Git is a valuable skill for any developer.</p>
+    </section>
+
+
+  </main>
+</body>
+</html>
