@@ -40,6 +40,14 @@ Day 4 :
 
 - Day 5 : 
 - [W3Schools](https://www.w3schools.com)
+- [Youtube](https://youtu.be/9cmy6AK3IBA?si=w6cWGiH23HFAiw4S)
+- 
+- Day 6 : 
+- [W3Schools](https://www.w3schools.com)
+- [Free Code Camp](freecodecamp.org)
+- [ChatGPT](openai.com)
+  
+  
 
 
  
