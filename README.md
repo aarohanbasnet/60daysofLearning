@@ -38,6 +38,10 @@ Day 4 :
 - [W3Schools](https://www.w3schools.com)
 - [Chat GPT](https://openai.com/)
 
+- Day 5 : 
+- [W3Schools](https://www.w3schools.com)
+
+
  
 - Other helpful tutorials and documentation as I discover them.
 
@@ -51,4 +55,3 @@ Let’s build this journey, one line of code at a time. 💻🔥
 
 ---
 
-*Created by Aarohan*  
