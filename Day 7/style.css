@@ -1,0 +1,202 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family : 'Poppins', sans-serif;
+
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+}
+
+#nav{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav-part1 h3{
+    font-size: 17px;
+    border: 1.3px solid black;
+    font-weight: 500;
+    padding: 5px 8px;
+    border-radius: 50px;
+}
+
+#nav-part1 i{
+    font-size: 16px;
+    border: 1.3px solid black;
+    font-weight: 500;
+    padding: 8px 6px;
+    border-radius: 20px;
+}
+
+
+#nav h1{
+    font-weight: 500;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+#nav button{
+    padding: 7px 12px;
+    border-radius: 50px;
+    border: 1.5px solid black;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+
+#nav #btn2{
+   background-color: orangered;
+   color: white;
+   border: none;
+}
+#nav #btn2:hover{
+   background-color: white;
+    border-radius: 50px;
+    border: 1.5px solid black;
+    color: black;
+}
+
+#nav #btn1{
+    background-color: white;
+}
+#nav #btn1:hover{
+    background-color: orangered;
+   color: white;
+   border: none;
+}
+
+ #main > h1{  /*This directly targets the children 
+    h1 which is inside main*/
+    font-size: 100px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+}
+
+img{
+    height: 400px;
+    width: 300px;
+     object-fit: cover; /*Prevents image shrink */
+     object-position: top;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     border-radius: 20px;
+   
+}
+
+#img1{  /*we could have used rotate property directly but since we have used
+    transform : translate property the single rotate property would over write the 
+    translate property */
+   transform: translate(-50%,-50%) rotate(-30deg);
+}
+#img2{
+   transform: translate(-50%,-50%) rotate(-20deg);
+}
+#img3{
+   transform: translate(-50%,-50%) rotate(-10deg);
+}
+
+
+
+#btm-left{
+    position:absolute;
+    bottom: 5%;
+    left: 3%;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+#btm-icons{
+    position: absolute;
+    bottom:5%;
+    right: 3%;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+#btm-icons h5{
+    font-weight: 400;
+}
+  
+#btm-icons i{
+    margin-left: 10px;
+    font-size: 20px;
+    transform: scale(1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+#btm-icons i:hover{
+   transform: scale(1.4);
+   color: orangered;
+}
+  
+#img4 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 20px;
+  height: 400px;
+  width: 300px;
+  object-fit: cover;
+  object-position: top;
+  transform: translate(-50%, -50%);
+  z-index: 20; /* Always front by default */
+  transition: transform 0.5s ease, box-shadow 0.3s ease;
+}
+
+#img1, #img2, #img3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 20px;
+  height: 400px;
+  width: 300px;
+  object-fit: cover;
+  object-position: top;
+  transition: transform 0.5s ease, box-shadow 0.3s ease;
+  z-index: 1; /* Behind img4 by default */
+}
+
+#img1 {
+  transform: translate(-50%, -50%) rotate(-40deg);
+}
+#img2 {
+  transform: translate(-50%, -50%) rotate(-35deg);
+}
+#img3 {
+  transform: translate(-50%, -50%) rotate(-25deg);
+}
+
+/* On hover, bring hovered image in front and remove rotation */
+#img1:hover, #img2:hover, #img3:hover {
+  transform: translate(-50%, -50%) rotate(0deg) scale(1.05);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  z-index: 30; /* Higher than img4 to come front */
+}
+
+#main-text:hover{
+    color: orangered;
+}
