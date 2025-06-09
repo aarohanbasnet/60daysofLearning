@@ -46,6 +46,15 @@ Day 4 :
 - [W3Schools](https://www.w3schools.com)
 - [Free Code Camp](freecodecamp.org)
 - [ChatGPT](openai.com)
+
+-  Day 7 : 
+- [W3Schools](https://www.w3schools.com)
+- [ChatGPT](openai.com)
+
+-  Day 8 : 
+- [freecodecamp](freecodecamp.com)
+
+  
   
   
 
