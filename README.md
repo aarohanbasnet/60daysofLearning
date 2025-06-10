@@ -56,6 +56,9 @@ Day 4 :
   
 -  Day 9 : 
 - [freecodecamp](freecodecamp.com)
+  
+-  Day 10: 
+- [How to Web Dev](https://youtu.be/NWZQkwXtHJo?si=8NDejgBy8lQf8oVq)
 
   
   
