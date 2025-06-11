@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+header{
+    position: fixed;
+    top: 1rem;
+    left: 50%;
+    transform: translateX(-50%); /*after left 50% it brings
+    to the center of the page but not by it's own center so we use transform 
+    this allows it to center from it's own width*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    background-color: rgba(0,0,0,0.8 );
+    backdrop-filter: blur(8px);
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 3rem;
+    z-index: 1000;
+}
+
+.logo{
+    color: white;
+    font-size: 1.3rem;
+    text-wrap: nowrap;/*when the viewport gets smaller
+    the text gets wrapped which is prevented using nowrap*/
+    transition: 0.3s ease-in-out;
+}
+
+.logo:hover{
+ transform: scale(1.1);
+}
+
+.nav-links{
+    display: flex;
+    gap: 2rem;
+}
+
+li{
+    list-style-type:none;
+}
+
+li a{
+    position: relative; /*the new positiion is going to be
+    positioned realtive to it's parent element below */
+    color: white;
+    font-weight: 300;
+}
+
+li a::before{
+    position: absolute;
+    content:'';
+    width: 0;
+    left: 0;
+    height: 5px;
+    top: 25px;
+    border-radius: 1rem;
+    transition: 0.3s ease-in-out;
+    background: linear-gradient(to right,rgb(0,157,255),rgb(255,0,255));
+}
+
+li a:hover::before{
+    width: 100%;
+}
+
+.visit-btn{
+    padding: 0.8rem 1.5rem;
+    border-radius: 3rem;
+    border: none;
+    font-weight: 500;
+    font-size: 1rem;
+    cursor: pointer;
+    color: white;
+    text-wrap: nowrap;
+    transition: 0.3s ease-in-out;
+    background: linear-gradient(to right,rgb(0,157,255),rgb(255,0,255));
+
+}
+
+.visit-btn:hover{
+     background: linear-gradient(to right,rgb(255,0,255),rgb(0,157,255));
+    transform: scale(1.03);
+}
+
+#menu-icon{
+    font-size: 2rem;
+    display: none;
+}
+
+section{
+    min-height: 100vh; /*Covers the entire page*/
+    padding: 8rem 12%;
+    width: 100%;
+    position: relative;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about .about-container{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: 10rem;
+}
+
+.about img{
+    width: 30vw; /*vw = viewport width takes 30% of the viewport*/
+    border-radius: 50%;
+}
+
+.info-box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.info-box h3{
+    font-size: 1.8rem;
+    font-weight: 500;
+    opacity: 0.8;
+}
+.info-box h1{
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.info-box span{
+    background: linear-gradient(to right,rgb(255,0,255),rgb(0,157,255));
+    background-clip: text;
+    color: transparent;
+    font-size: 2rem;
+}
+
+.btn-group{
+    display: flex;
+    gap: 1rem;
+}
+
+.btn{
+    border-radius: 3rem;
+    padding: 0.5rem 1.5rem;
+    border: 2px solid black;
+    cursor: pointer;
+    font-weight: 500;
+    text-wrap: nowrap;
+    transition: 0.2s ease-in-out;
+}
+
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+
+.socials{
+    display: flex;
+    gap: 2rem;
+}
+
+.socials i{
+    font-size: 2.5rem;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.socials i:hover{
+    transform: scale(1.1);
+}
+
+.section-title{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+
+.experience-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.experience img{
+    width: 24vw;
+    border-radius: 3rem;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+}
+
+.grid-card{
+    border: 2px solid black;
+    border-radius: 3rem;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: left;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.grid-card:hover{
+    transform: scale(1.02);
+    background-color: black;
+    color: white;
+}
+
+.grid-card i{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.grid-card span{
+    font-size: 1rem;
+    font-weight: 500;
+    background: linear-gradient(to right, #009dff, #ff00ff);
+    background-clip: text;
+    color: transparent;
+}
+
+::-webkit-scrollbar{
+    width: 20px;
+}
+::-webkit-scrollbar-track{
+    background-color: rgb(219,219,219);
+}
+::-webkit-scrollbar-thumb{
+     background: linear-gradient(to bottom, #009dff, #ff00ff);
+    }
+
+   
+
