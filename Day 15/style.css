@@ -1,0 +1,15 @@
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#btn{
+    padding:10px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#random{
+    padding-top:50%;
+    font-size: 60px;
+}
