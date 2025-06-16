@@ -59,6 +59,27 @@ Day 4 :
   
 -  Day 10: 
 - [How to Web Dev](https://youtu.be/NWZQkwXtHJo?si=8NDejgBy8lQf8oVq)
+  
+-  Day 11: 
+- [How to Web Dev](https://youtu.be/NWZQkwXtHJo?si=8NDejgBy8lQf8oVq)
+  
+-  Day 12: 
+- [How to Web Dev](https://youtu.be/NWZQkwXtHJo?si=8NDejgBy8lQf8oVq)
+  
+-  Day 13: 
+- [How to Web Dev](https://youtu.be/NWZQkwXtHJo?si=8NDejgBy8lQf8oVq)
+  
+-  Day 14: 
+- [BroCode](https://youtu.be/NWZQkwXtHJo?si=8NDejgBy8lQf8oVq](https://youtu.be/lfmg-EJ8gm4?si=r6lnxjDloLYsvIL-) )
+- Javascript.info
+  
+-  Day 15:
+-  [BroCode](https://youtu.be/NWZQkwXtHJo?si=8NDejgBy8lQf8oVq](https://youtu.be/lfmg-EJ8gm4?si=r6lnxjDloLYsvIL-))
+- Javascript.info
+  
+-  Day 16:
+- [BroCode](https://youtu.be/NWZQkwXtHJo?si=8NDejgBy8lQf8oVq](https://youtu.be/lfmg-EJ8gm4?si=r6lnxjDloLYsvIL-))
+- Javascript.info
 
   
   
