@@ -80,6 +80,22 @@ Day 4 :
 -  Day 16:
 - [BroCode](https://youtu.be/NWZQkwXtHJo?si=8NDejgBy8lQf8oVq](https://youtu.be/lfmg-EJ8gm4?si=r6lnxjDloLYsvIL-))
 - Javascript.info
+  
+-  Day 17:
+- [BroCode](https://youtu.be/NWZQkwXtHJo?si=8NDejgBy8lQf8oVq](https://youtu.be/lfmg-EJ8gm4?si=r6lnxjDloLYsvIL-))
+- Javascript.info
+  
+-  Day 18:
+- [BroCode](https://youtu.be/NWZQkwXtHJo?si=8NDejgBy8lQf8oVq](https://youtu.be/lfmg-EJ8gm4?si=r6lnxjDloLYsvIL-))
+- Javascript.info
+  
+-  Day 19:
+- [BroCode](https://youtu.be/NWZQkwXtHJo?si=8NDejgBy8lQf8oVq](https://youtu.be/lfmg-EJ8gm4?si=r6lnxjDloLYsvIL-))
+- Javascript.info
+  
+-  Day 20:
+- [BroCode](https://youtu.be/NWZQkwXtHJo?si=8NDejgBy8lQf8oVq](https://youtu.be/lfmg-EJ8gm4?si=r6lnxjDloLYsvIL-))
+- Javascript.info
 
   
   
