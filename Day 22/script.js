@@ -143,3 +143,48 @@ console.log(person.firstName);
 console.log(person.lastName);
 console.log(person.age);
 console.log(person.fullName);
+
+//DESTRUCTURING 
+
+//Swap 2 elements in an array 
+
+const colors = ["red","green","blue","black","white"];
+[colors[0],colors[4]]=[colors[4],colors[0]];
+console.log(colors);
+
+//Swap the value of two variable
+let a = 4;
+let b = 2;
+[a,b]=[b,a];
+console.log(a);
+
+//Assign Array elements to variable
+
+const [firstColor, secondColor, thirdColor, ...extraColors] = colors;
+console.log(secondColor);
+console.log(extraColors);
+
+//Extract Values from Objects 
+ const Person1 = {
+  firstName : "Spongebob",
+  lastName : "SquarePants",
+  age : "22",
+  job : "fryCook",
+ }
+
+ const Person2 = {
+  firstName : "Spongebob",
+  lastName : "SquarePants",
+  age : "22",
+ }
+
+ const{firstName, lastName, age,job} = Person1;
+ console.log(job);
+
+ //Function Parameter
+
+ function displayPerson({firstName,lastName,age,job="unemployed"}){
+    console.log(job);
+ };
+
+ displayPerson(Person2);
