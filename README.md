@@ -152,6 +152,10 @@ Day 4 :
 -  Day 34/35:
 - Expense Tracker
 - [Codesistency](https://youtu.be/kAiX0itnonM?si=8N4gVmc2wZtmaY5o)
+  
+-  Day 36:
+- User Flow Basics and FigJam 
+- [Jesse Showalter]([https://youtu.be/kAiX0itnonM?si=8N4gVmc2wZtmaY5o](https://youtu.be/cvYhuowazh0?si=Ki6W-Ey0ruH2rVhq))
 
   
 
