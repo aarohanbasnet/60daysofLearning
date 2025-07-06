@@ -112,6 +112,51 @@ Day 4 :
 -  Day 24:
 - [BroCode](https://youtu.be/NWZQkwXtHJo?si=8NDejgBy8lQf8oVq](https://youtu.be/lfmg-EJ8gm4?si=r6lnxjDloLYsvIL-))
 - Javascript.info
+  
+-  Day 25:
+- [BroCode](https://youtu.be/NWZQkwXtHJo?si=8NDejgBy8lQf8oVq](https://youtu.be/lfmg-EJ8gm4?si=r6lnxjDloLYsvIL-))
+- Javascript.info
+  
+-  Day 26:
+- [BroCode](https://youtu.be/NWZQkwXtHJo?si=8NDejgBy8lQf8oVq](https://youtu.be/lfmg-EJ8gm4?si=r6lnxjDloLYsvIL-))
+- Javascript.info
+  
+-  Day 27:
+- [BroCode](https://youtu.be/NWZQkwXtHJo?si=8NDejgBy8lQf8oVq](https://youtu.be/lfmg-EJ8gm4?si=r6lnxjDloLYsvIL-))
+- Javascript.info
+  
+-  Day 28:
+- [BroCode](https://youtu.be/NWZQkwXtHJo?si=8NDejgBy8lQf8oVq](https://youtu.be/lfmg-EJ8gm4?si=r6lnxjDloLYsvIL-))
+- Javascript.info
+  
+-  Day 29:
+- [BroCode](https://youtu.be/NWZQkwXtHJo?si=8NDejgBy8lQf8oVq](https://youtu.be/lfmg-EJ8gm4?si=r6lnxjDloLYsvIL-))
+- Javascript.info
+  
+-  Day 30:
+-  Random Quote Generator
+- [GreatStack](https://youtu.be/NWZQkwXtHJo?si=8NDejgBy8lQf8oVq](https://youtu.be/lfmg-EJ8gm4?si=r6lnxjDloLYsvIL-)](https://youtu.be/FiUVwPYYT5A?si=Mb8Z0trNqRjqaGdF))
+  
+-  Day 31:
+- To do App
+- [GreatStack](https://youtu.be/NWZQkwXtHJo?si=8NDejgBy8lQf8oVq](https://youtu.be/lfmg-EJ8gm4?si=r6lnxjDloLYsvIL-)](https://youtu.be/FiUVwPYYT5A?si=Mb8Z0trNqRjqaGdF)](https://youtu.be/G0jO8kUrg-I?si=GMwjFYsjb-17-2g7))
+  
+-  Day 32:
+- Drag and Drop 
+- [GreatStack](https://youtu.be/4AHot187Lj0?si=q5f4dpFi2RlYbnZ2)
+  
+-  Day 33:
+- Weather App
+- [GreatStack](https://youtu.be/4AHot187Lj0?si=q5f4dpFi2RlYbnZ2](https://youtu.be/MIYQR-Ybrn4?si=TbmjHGSI2o0siX4q)](https://youtu.be/MIYQR-Ybrn4?si=tuPaik5l6pjBWR2H))
+  
+-  Day 34/35:
+- Expense Tracker
+- [Codesistency](https://youtu.be/kAiX0itnonM?si=8N4gVmc2wZtmaY5o)
+
+  
+
+ 
+  
 
   
   
