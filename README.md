@@ -205,21 +205,21 @@ Structure your code like:
 
 let tasks = [];
 
-function addTask(tasks, title, dueDate)
-function listTasks(tasks) 
-function completeTask(tasks, id) 
-function deleteTask(tasks, id) 
-function taskSummary(tasks) 
+function addTask(tasks, title, dueDate)  <br>
+function listTasks(tasks)  <br>
+function completeTask(tasks, id)  <br>
+function deleteTask(tasks, id)  <br>
+function taskSummary(tasks  <br> 
 
 🛠️ Requirements:
-Use map, filter, find, reduce at least once.
-Use arrow functions.
-Use destructuring wherever possible.
-Use default parameters and rest/spread.
-Keep functions pure.
-Modularize into multiple files using import/export (bonus).
-No DOM, no fetch, no prompt—hardcode data in function calls.
-Use console.log() to simulate UI.
+Use map, filter, find, reduce at least once. <br>
+Use arrow functions. <br>
+Use destructuring wherever possible. <br>
+Use default parameters and rest/spread. <br>
+Keep functions pure. <br>
+Modularize into multiple files using import/export (bonus). <br>
+No DOM, no fetch, no prompt—hardcode data in function calls. <br>
+Use console.log() to simulate UI. <br>
 
 🧩 Bonus Challenges (once base is done):
 Add tags to tasks.
@@ -232,12 +232,12 @@ Filter by a specific date range.
 
 👇 Here's how you could simulate usage:
 
-tasks = addTask(tasks, "Finish JavaScript project", "2025-07-08");
-tasks = addTask(tasks, "Study React", "2025-07-10");
+tasks = addTask(tasks, "Finish JavaScript project", "2025-07-08"); <br>
+tasks = addTask(tasks, "Study React", "2025-07-10"); <br>
 
-listTasks(tasks);
-tasks = completeTask(tasks, 1);
-taskSummary(tasks);
+listTasks(tasks); <br>
+tasks = completeTask(tasks, 1); <br>
+taskSummary(tasks); <br>
 
   
 
