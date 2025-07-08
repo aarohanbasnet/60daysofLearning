@@ -157,6 +157,88 @@ Day 4 :
 - User Flow Basics and FigJam 
 - [Jesse Showalter]([https://youtu.be/kAiX0itnonM?si=8N4gVmc2wZtmaY5o](https://youtu.be/cvYhuowazh0?si=Ki6W-Ey0ruH2rVhq))
 
+
+
+
+
+## Day 38 ( Logic build up Practice  question ) : 
+
+📋##  Project: Personal Task Manager (Console App)
+🧱 Features to Implement:
+Add a Task
+
+Each task is an object: { id, title, dueDate, completed }
+
+Auto-generate a unique ID for each task.
+
+List All Tasks
+
+Show tasks sorted by dueDate.
+
+Format the output nicely using template literals.
+
+Mark a Task as Completed
+
+Toggle completed: true/false.
+
+Delete a Task
+
+Filter it out using the ID.
+
+List Only Completed or Incomplete Tasks
+
+Show Task Summary
+
+Total tasks, completed count, pending count.
+
+Data Immutability
+
+Every operation returns a new task array (no mutation of original array).
+
+Optional Challenge: Save/load tasks from JSON using modules
+
+🔁 Functions You Must Use:
+You should only use functions and log() to interact with this app.
+
+Structure your code like:
+
+
+let tasks = [];
+
+function addTask(tasks, title, dueDate)
+function listTasks(tasks) 
+function completeTask(tasks, id) 
+function deleteTask(tasks, id) 
+function taskSummary(tasks) 
+
+🛠️ Requirements:
+Use map, filter, find, reduce at least once.
+Use arrow functions.
+Use destructuring wherever possible.
+Use default parameters and rest/spread.
+Keep functions pure.
+Modularize into multiple files using import/export (bonus).
+No DOM, no fetch, no prompt—hardcode data in function calls.
+Use console.log() to simulate UI.
+
+🧩 Bonus Challenges (once base is done):
+Add tags to tasks.
+
+Add priority (high, medium, low) and sort by it.
+
+Simulate editing task titles.
+
+Filter by a specific date range.
+
+👇 Here's how you could simulate usage:
+
+tasks = addTask(tasks, "Finish JavaScript project", "2025-07-08");
+tasks = addTask(tasks, "Study React", "2025-07-10");
+
+listTasks(tasks);
+tasks = completeTask(tasks, 1);
+taskSummary(tasks);
+
   
 
  
