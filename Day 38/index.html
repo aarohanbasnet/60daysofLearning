@@ -7,22 +7,59 @@
 </head>
 <body>
     <script>
-        task = {
-            "id" : '',
-            "title" : '',
-            "dueDate" : ''
-            "isCompleted" : '',
-        }
-      function addTask(tasks, title, dueDate){
+    let tasks = [];
+let id = 1;
 
-
-      }
-      function listTasks()
-      function completeTask()
-      function deleteTask()
-      function taskSummary()
-        
-
+function addTask(tasks, title, task, dueDate ){
+    const newTask = {
+        id : id++,
+        title : title,
+        task : task,
+        dueDate : dueDate,
+        completed : false,
+    };
+    
+     const updatedTask = [...tasks, newTask];
+     return updatedTask;
+    };
+    
+    
+    // function DeleteTask(tasks, id){
+    //     tasks.forEach(()=>{
+    //         tasks.id == id ? task.filter()
+    //     })
+    // }
+    
+    // function DeleteTask(tasks, targetId){
+    //     if(tasks.id !== targetId){
+    //       return tasks.filter(task => task.id !== targetId);
+    //     }else{
+    //         console.log("Could not find the item to be deleted");
+    //     }
+    // }
+    
+    function DeleteTask(tasks, targetId){
+        let found = false
+       for( let task of tasks){
+           if(task.id === targetId){
+             found = true;
+             break;
+           };
+       };
+          if(!found){
+              console.log("Could not find the item");
+              return tasks;
+          }else{
+              return tasks.filter(task => task.id !== targetId);
+          };
+      
+    }
+    
+    
+    tasks =addTask(tasks, "Kitchen Chores", "Wash Dishes", "2025");
+    tasks = addTask(tasks,"Academic", "College Assignments", "2024");
+    tasks = DeleteTask(tasks,5);
+    console.log(tasks);
         
     </script>
 </body>
