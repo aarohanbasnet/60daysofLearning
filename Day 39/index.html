@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>To do list</h1>
+     <input type="text" id="input" placeholder="Add your task">
+     <button id="add-btn" onclick="addTask()">Add</button>
+     <label for="filter"></label>
+     <select name="filter" id="filter">
+        <option value="completed">Completed</option>
+        <option value="remaining">Remaining Task</option>
+     </select>
+     <button id="sort-btn" onclick="sort()">Sort</button>
+     <button id="sort-btn" onclick="summary(tasks)">Summary</button>
+
+    <div id="container">
+       
+        
+    </div>
+
+    <div id="brief"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
