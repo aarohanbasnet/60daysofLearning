@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 0;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.input-controls {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.input-controls input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    flex-grow: 1;
+    min-width: 200px;
+}
+
+.input-controls button,
+.input-controls select {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.input-controls button:hover,
+.input-controls select:hover {
+    background-color: #0056b3;
+}
+
+#container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    list-style: none; /* Remove default list bullets */
+    padding: 0;
+}
+
+#container li {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    font-size: 1.1rem;
+}
+
+#container li:last-child {
+    border-bottom: none;
+}
+
+#container li input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.2); /* Make checkbox slightly larger */
+}
+
+#container li span {
+    margin-left: auto;
+    color: #ff4d4d;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 5px;
+}
+
+#container li span:hover {
+    color: #cc0000;
+}
+
+#container li.completed-task {
+    text-decoration: line-through;
+    color: #888;
+}
+
+#brief {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e9f7ef;
+    border: 1px solid #d4edda;
+    border-radius: 5px;
+    color: #155724;
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+}
+
+#brief p {
+    margin: 0;
+}
