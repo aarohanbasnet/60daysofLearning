@@ -246,9 +246,13 @@ taskSummary(tasks); <br>
  -  Day 41:
 - QR Generator
 
-  -Day 42:
+ - Day 42:
   JS essential for React
    [FreeCodeCamp](https://www.freecodecamp.org/news/essential-javascript-concepts-before-react/?fbclid=IwY2xjawLfVINleHRuA2FlbQIxMABicmlkETFIOWtrZm5Mdk95eGJ2WFQ2AR55otOUz-ByZiQa-wDMVmpvMv6dRptqlUgAzVVCplZc5_yYVWLRjpVM6eLZRA_aem_UpPptBSBWXaGtBsCWt4vIQ)
+  
+ - Day 42:
+ React Basics by Meta : Coursera
+[Coder Coder -NPM](https://www.freecodecamp.org/news/essential-javascript-concepts-before-react/?fbclid=IwY2xjawLfVINleHRuA2FlbQIxMABicmlkETFIOWtrZm5Mdk95eGJ2WFQ2AR55otOUz-ByZiQa-wDMVmpvMv6dRptqlUgAzVVCplZc5_yYVWLRjpVM6eLZRA_aem_UpPptBSBWXaGtBsCWt4vIQ)
   
 
 
