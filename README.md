@@ -161,7 +161,7 @@ Day 4 :
 
 
 
-## Day 38 ( Logic build up Practice  question ) : 
+## Day 38 + 39 ( Logic build up Practice  question ) : 
 
 📋##  Project: Personal Task Manager (Console App)
 🧱 Features to Implement:
@@ -238,6 +238,27 @@ tasks = addTask(tasks, "Study React", "2025-07-10"); <br>
 listTasks(tasks); <br>
 tasks = completeTask(tasks, 1); <br>
 taskSummary(tasks); <br>
+
+
+-  Day 40:
+- Rock Paper Scissors
+
+ -  Day 41:
+- QR Generator
+
+ - Day 42:
+  JS essential for React
+   [FreeCodeCamp](https://www.freecodecamp.org/news/essential-javascript-concepts-before-react/?fbclid=IwY2xjawLfVINleHRuA2FlbQIxMABicmlkETFIOWtrZm5Mdk95eGJ2WFQ2AR55otOUz-ByZiQa-wDMVmpvMv6dRptqlUgAzVVCplZc5_yYVWLRjpVM6eLZRA_aem_UpPptBSBWXaGtBsCWt4vIQ)
+  
+ - Day 42:
+ React Basics by Meta : Coursera
+[Coder Coder -NPM](https://www.freecodecamp.org/news/essential-javascript-concepts-before-react/?fbclid=IwY2xjawLfVINleHRuA2FlbQIxMABicmlkETFIOWtrZm5Mdk95eGJ2WFQ2AR55otOUz-ByZiQa-wDMVmpvMv6dRptqlUgAzVVCplZc5_yYVWLRjpVM6eLZRA_aem_UpPptBSBWXaGtBsCWt4vIQ)
+  
+
+
+
+
+
 
   
 
