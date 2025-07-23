@@ -1,8 +1,35 @@
-.container{
-  height: 500px;
-  width: 300px;
-  background-color: black;
-  border-radius: 50px;
-  display: flex;
-  flex-direction: column;
+body{
+  font-family: monospace;
 }
+
+.container{
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  border: 2px solid black;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: black;
+}
+
+.green{
+  background-color: rgb(9, 255, 9);
+}
+
+.red{
+  background-color: rgb(237, 8, 8);
+}
+
+.yellow{
+  background-color: rgb(253, 253, 7);
+}
+
+.light{
+  width: 25px;
+  height: 25px;
+  border-radius: 50px;
+  padding: 10px;
+  
+}
+
