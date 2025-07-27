@@ -4,8 +4,12 @@ import Home from "./Pages/Home";
 import Products from "./Pages/Products";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
+import ContactLayout from "./Layouts/ContactLayout";
 
 import { Routes, Route } from "react-router-dom";
+import Contactinfo from "./Components/Contactinfo";
+import { ContactForm } from "./Components/ContactForm";
+import NotFound from "./Components/NotFound";
 
 const App = () => {
   return (
@@ -16,7 +20,11 @@ const App = () => {
         <Route path="/" element={<Home />}/>
         <Route path="/products" element={<Products />}/>
         <Route path="/about" element={<About />}/>
-        <Route path="/contact" element={<Contact />}/>
+        <Route path="/contact" element={<ContactLayout/>}>
+          <Route path="info" element={<Contactinfo/>}/>
+          <Route path="form" element={<ContactForm/>}/>
+        </Route>
+        <Route path="*" element={<NotFound/>}/>
       </Routes>
       </div>
     </div>
