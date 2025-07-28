@@ -10,6 +10,8 @@ import { Routes, Route } from "react-router-dom";
 import Contactinfo from "./Components/Contactinfo";
 import { ContactForm } from "./Components/ContactForm";
 import NotFound from "./Components/NotFound";
+import JobsLayout from "./Layouts/JobsLayout";
+import Jobs from "./Pages/Jobs";
 
 const App = () => {
   return (
@@ -23,6 +25,9 @@ const App = () => {
         <Route path="/contact" element={<ContactLayout/>}>
           <Route path="info" element={<Contactinfo/>}/>
           <Route path="form" element={<ContactForm/>}/>
+        </Route>
+        <Route path="jobs" element={<JobsLayout/>}>
+          <Route index element={<Jobs/>}/>
         </Route>
         <Route path="*" element={<NotFound/>}/>
       </Routes>

@@ -12,6 +12,7 @@ const NavBar = () => {
             <NavLink to = "/products"><li>Products</li></NavLink>
             <NavLink to = "/about"><li>About</li></NavLink>
             <NavLink to = "/contact"><li>Contact</li></NavLink>
+            <NavLink to = "/jobs"><li>Career</li></NavLink>
         </ul>
         <button onClick={()=> navigate('/about')}>Get Started</button>
     </div>
