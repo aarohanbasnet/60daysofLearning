@@ -6,33 +6,35 @@ import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import ContactLayout from "./Layouts/ContactLayout";
 
-import { Routes, Route } from "react-router-dom";
+import {  Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from "react-router-dom";
 import Contactinfo from "./Components/Contactinfo";
 import { ContactForm } from "./Components/ContactForm";
 import NotFound from "./Components/NotFound";
 import JobsLayout from "./Layouts/JobsLayout";
-import Jobs from "./Pages/Jobs";
+import Jobs, { jobsLoader } from "./Pages/Jobs";
+import RootLayout from "./Layouts/RootLayout";
 
 const App = () => {
-  return (
-    <div>
-      <NavBar/>
-      <div className="container">
-      <Routes>
-        <Route path="/" element={<Home />}/>
-        <Route path="/products" element={<Products />}/>
-        <Route path="/about" element={<About />}/>
-        <Route path="/contact" element={<ContactLayout/>}>
+
+ const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path = '/' element={<RootLayout/>}>
+      <Route index element={<Home />}/>
+        <Route path="products" element={<Products />}/>
+        <Route path="about" element={<About />}/>
+        <Route path="contact" element={<ContactLayout/>}>
           <Route path="info" element={<Contactinfo/>}/>
           <Route path="form" element={<ContactForm/>}/>
         </Route>
         <Route path="jobs" element={<JobsLayout/>}>
-          <Route index element={<Jobs/>}/>
+          <Route index element={<Jobs/>} loader={jobsLoader}/>
         </Route>
         <Route path="*" element={<NotFound/>}/>
-      </Routes>
-      </div>
-    </div>
+    </Route>
+  )
+ );
+  return (
+   <RouterProvider router={router}/>
   )
 }
 
