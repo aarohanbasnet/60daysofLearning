@@ -254,7 +254,13 @@ taskSummary(tasks); <br>
  React Basics by Meta : Coursera
 [Coder Coder -NPM](https://www.freecodecamp.org/news/essential-javascript-concepts-before-react/?fbclid=IwY2xjawLfVINleHRuA2FlbQIxMABicmlkETFIOWtrZm5Mdk95eGJ2WFQ2AR55otOUz-ByZiQa-wDMVmpvMv6dRptqlUgAzVVCplZc5_yYVWLRjpVM6eLZRA_aem_UpPptBSBWXaGtBsCWt4vIQ)
   
+I could not update further, but for most parts I used: 
+BroCode's React  tutorial (YouTube)
+Coursera, React Basics by Meta (Coursera) 
+GreatStack for Projects (GreatStack Youtube channel) 
 
+Day 60/60 : Made it till the end without skipping a day, 
+Crazy how 60 days ago, I wasn’t sure I’d even make it past day 5. Today, I’m still here  learning, growing, and proving to myself what consistency can do. Thanks to @lftechnology for creating a challenge that didn’t just teach me skills but showed me what discipline truly means.
 
 
 
