@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
 import "./NavBar.css"
 import { assets } from '../../assets/food-del-assets/assets/frontend_assets/assets' 
+ 
 
-const NavBar = (setShowLogin) => {
+const NavBar = ({setShowLogin}) => {
 
   const [menu, setMenu] = useState("home");
   return (
