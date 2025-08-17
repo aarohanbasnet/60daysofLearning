@@ -1,5 +1,5 @@
  # 60daysofLearning
-This repository tracks my #LearningWithLeaprog 's 60 days challenge 
+This repository tracks my #LearningWithLeapfrog 's 60 days challenge 
 ## 60 Days of Learning: From HTML to Web Development 🚀
 
 Welcome to my **60 Days of Learning** challenge!  
